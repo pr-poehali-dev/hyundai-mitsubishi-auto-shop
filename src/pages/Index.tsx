@@ -125,7 +125,7 @@ export default function Index() {
       <section id="home" className="pt-16 min-h-screen flex items-center relative overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(https://cdn.poehali.dev/projects/8430b8b8-8db8-40a1-849e-94cf2f3ca362/files/3d2f0a4a-f1b6-422e-a6f7-cd45c331262a.jpg)` }}
+          style={{ backgroundImage: `url(https://cdn.poehali.dev/projects/8430b8b8-8db8-40a1-849e-94cf2f3ca362/files/f87f977a-fc3f-49a8-a3af-d12be9a659c7.jpg)` }}
         />
         <div className="absolute inset-0 bg-[#0a0a0a]/75" />
 
