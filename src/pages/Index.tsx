@@ -224,18 +224,7 @@ export default function Index() {
             />
           </div>
 
-          <div className="mt-10 flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between bg-[#f9f9f9] rounded p-6 border border-[#ebebeb]">
-            <div>
-              <p className="font-semibold text-[#141414]">Не нашли нужную деталь?</p>
-              <p className="text-[#777] text-sm mt-1">Оставьте заявку — подберём и привезём под заказ</p>
-            </div>
-            <button
-              onClick={() => scrollTo("#contacts")}
-              className="bg-[#141414] text-white font-medium px-6 py-3 rounded hover:bg-red-600 transition-colors whitespace-nowrap"
-            >
-              Отправить запрос
-            </button>
-          </div>
+
         </div>
       </section>
 
