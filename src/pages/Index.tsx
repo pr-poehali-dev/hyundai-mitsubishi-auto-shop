@@ -39,10 +39,10 @@ const TEAM = [
 ];
 
 const CONTACTS = [
-  { icon: "MapPin", label: "Адрес", value: "ул. Автомобильная, 42, Москва" },
-  { icon: "Phone", label: "Телефон", value: "+7 (495) 123-45-67" },
-  { icon: "Mail", label: "Email", value: "info@autoservice.ru" },
-  { icon: "Clock", label: "Режим работы", value: "Пн–Сб: 8:00–20:00 / Вс: 9:00–17:00" },
+  { icon: "MapPin", label: "Адрес", value: "ул. Щепкина, 2" },
+  { icon: "Phone", label: "Телефон", value: "+7 (953) 415-31-09" },
+  { icon: "Mail", label: "Email", value: "Auto-stimul@mail.ru" },
+  { icon: "Clock", label: "Режим работы", value: "Пн–Сб: 9:00–18:00" },
 ];
 
 export default function Index() {
@@ -83,9 +83,9 @@ export default function Index() {
           </nav>
 
           <div className="hidden md:flex items-center gap-4">
-            <a href="tel:+74951234567" className="flex items-center gap-2 text-sm font-semibold text-[#141414] hover:text-red-600 transition-colors">
+            <a href="tel:+79534153109" className="flex items-center gap-2 text-sm font-semibold text-[#141414] hover:text-red-600 transition-colors">
               <Icon name="Phone" size={15} />
-              +7 (495) 123-45-67
+              +7 (953) 415-31-09
             </a>
             <button
               onClick={() => scrollTo("#contacts")}
