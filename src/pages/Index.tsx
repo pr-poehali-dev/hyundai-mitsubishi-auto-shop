@@ -63,8 +63,8 @@ export default function Index() {
             <div className="w-8 h-8 bg-red-600 rounded flex items-center justify-center">
               <Icon name="Car" size={18} className="text-white" />
             </div>
-            <span className="font-bold text-lg tracking-tight text-[#141414]">
-              АВТО<span className="text-red-600">СЕРВИС</span>
+            <span className="text-xl tracking-wide text-[#141414]" style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 700 }}>
+              Авто-<span className="text-red-600">Стимул</span>
             </span>
           </button>
 
@@ -128,13 +128,10 @@ export default function Index() {
 
         <div className="relative z-10 max-w-6xl mx-auto px-6 py-28">
           <div className="max-w-2xl">
-            <div className="flex items-center gap-2 mb-6 animate-fade-in">
-              <div className="w-8 h-[2px] bg-red-500" />
-              <span className="text-red-600 text-sm font-semibold uppercase tracking-widest">Авто-Стимул</span>
-            </div>
-            <h1 className="text-5xl md:text-7xl font-black text-[#141414] leading-none mb-6 animate-slide-up">
-              Ваш автомобиль<br />в надёжных<br /><span className="text-red-500">руках</span>
+            <h1 className="text-7xl md:text-9xl text-[#141414] leading-none mb-4 animate-slide-up" style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 900 }}>
+              Авто-<span className="text-red-600">Стимул</span>
             </h1>
+            <p className="text-xl md:text-2xl font-semibold text-[#333] mb-4 animate-slide-up-delay-1">Ваш автомобиль в надёжных руках</p>
             <p className="text-[#555] text-lg mb-10 leading-relaxed animate-slide-up-delay-1">
               Запчасти от ведущих производителей и полный цикл технического обслуживания — всё в одном месте.
             </p>
@@ -407,7 +404,7 @@ export default function Index() {
             <div className="w-7 h-7 bg-red-600 rounded flex items-center justify-center">
               <Icon name="Car" size={14} className="text-white" />
             </div>
-            <span className="font-bold text-white">АВТО<span className="text-red-500">СЕРВИС</span></span>
+            <span className="text-white text-lg" style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 700 }}>Авто-<span className="text-red-500">Стимул</span></span>
           </div>
           <p className="text-white/30 text-sm">© 2024 АвтоСервис. Все права защищены.</p>
           <div className="flex flex-wrap gap-6">
