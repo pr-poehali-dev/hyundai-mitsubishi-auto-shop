@@ -133,7 +133,7 @@ export default function Index() {
           <div className="max-w-2xl">
             <div className="flex items-center gap-2 mb-6 animate-fade-in">
               <div className="w-8 h-[2px] bg-red-500" />
-              <span className="text-red-400 text-sm font-semibold uppercase tracking-widest">Профессиональный сервис</span>
+              <span className="text-red-400 text-sm font-semibold uppercase tracking-widest">Авто-Стимул</span>
             </div>
             <h1 className="text-5xl md:text-7xl font-black text-white leading-none mb-6 animate-slide-up">
               Ваш автомобиль<br />в надёжных<br /><span className="text-red-500">руках</span>
