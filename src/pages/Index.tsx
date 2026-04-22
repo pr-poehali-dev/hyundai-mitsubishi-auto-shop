@@ -122,23 +122,22 @@ export default function Index() {
       </header>
 
       {/* HERO */}
-      <section id="home" className="pt-16 min-h-screen flex items-center relative overflow-hidden">
+      <section id="home" className="pt-16 min-h-screen flex items-center relative overflow-hidden bg-[#f5f5f0]">
         <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(https://cdn.poehali.dev/projects/8430b8b8-8db8-40a1-849e-94cf2f3ca362/files/f87f977a-fc3f-49a8-a3af-d12be9a659c7.jpg)` }}
+          className="absolute inset-0 bg-contain bg-center bg-no-repeat opacity-30"
+          style={{ backgroundImage: `url(https://cdn.poehali.dev/projects/8430b8b8-8db8-40a1-849e-94cf2f3ca362/bucket/fef54e10-3078-45a4-b20a-19f635aa0c11.png)` }}
         />
-        <div className="absolute inset-0 bg-[#0a0a0a]/75" />
 
         <div className="relative z-10 max-w-6xl mx-auto px-6 py-28">
           <div className="max-w-2xl">
             <div className="flex items-center gap-2 mb-6 animate-fade-in">
               <div className="w-8 h-[2px] bg-red-500" />
-              <span className="text-red-400 text-sm font-semibold uppercase tracking-widest">Авто-Стимул</span>
+              <span className="text-red-600 text-sm font-semibold uppercase tracking-widest">Авто-Стимул</span>
             </div>
-            <h1 className="text-5xl md:text-7xl font-black text-white leading-none mb-6 animate-slide-up">
+            <h1 className="text-5xl md:text-7xl font-black text-[#141414] leading-none mb-6 animate-slide-up">
               Ваш автомобиль<br />в надёжных<br /><span className="text-red-500">руках</span>
             </h1>
-            <p className="text-white/70 text-lg mb-10 leading-relaxed animate-slide-up-delay-1">
+            <p className="text-[#555] text-lg mb-10 leading-relaxed animate-slide-up-delay-1">
               Запчасти от ведущих производителей и полный цикл технического обслуживания — всё в одном месте.
             </p>
             <div className="flex flex-wrap gap-4 animate-slide-up-delay-2">
@@ -150,7 +149,7 @@ export default function Index() {
               </button>
               <button
                 onClick={() => scrollTo("#catalog")}
-                className="border border-white/40 text-white font-semibold px-8 py-4 rounded hover:border-white hover:bg-white/10 transition-all"
+                className="border border-[#141414]/40 text-[#141414] font-semibold px-8 py-4 rounded hover:border-[#141414] hover:bg-[#141414]/10 transition-all"
               >
                 Каталог запчастей
               </button>
@@ -158,7 +157,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="absolute bottom-0 left-0 right-0 bg-black/40 backdrop-blur-md border-t border-white/10">
+        <div className="absolute bottom-0 left-0 right-0 bg-[#141414]/10 backdrop-blur-md border-t border-[#141414]/10">
           <div className="max-w-6xl mx-auto px-6 py-6 grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
               { num: "15+", label: "Лет на рынке" },
@@ -167,8 +166,8 @@ export default function Index() {
               { num: "25+", label: "Мастеров в команде" },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
-                <div className="text-2xl font-black text-white">{stat.num}</div>
-                <div className="text-white/50 text-xs mt-1">{stat.label}</div>
+                <div className="text-2xl font-black text-[#141414]">{stat.num}</div>
+                <div className="text-[#555] text-xs mt-1">{stat.label}</div>
               </div>
             ))}
           </div>
